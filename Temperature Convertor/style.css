@@ -1,0 +1,66 @@
+/* Reset & Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Converter Container */
+.converter-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 320px;
+}
+
+.converter-container h1 {
+  margin-bottom: 30px;
+  color: #1a73e8;
+}
+
+/* Input Section */
+.input-section input,
+.input-section select {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-section button {
+  padding: 10px 20px;
+  width: 100%;
+  background: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-section button:hover {
+  background: #1558b0;
+}
+
+/* Output Section */
+.output-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.output-section p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
